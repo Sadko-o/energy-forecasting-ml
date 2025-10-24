@@ -1,0 +1,9 @@
+# OS junk
+.DS_Store
+
+# big artifacts / trained models / datasets
+artifacts/
+household_power_consumption.txt
+*.npz
+*.keras
+*.h5

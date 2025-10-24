@@ -1,0 +1,5 @@
+xxd -i artifacts/energy_nextmin_int8.tflite > artifacts/energy_nextmin_int8.h
+this will produce:
+unsigned char energy_nextmin_int8_tflite[] = { /* ... */ };
+unsigned int energy_nextmin_int8_tflite_len = ...;
+
